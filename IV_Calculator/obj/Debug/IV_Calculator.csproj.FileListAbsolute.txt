@@ -1,0 +1,64 @@
+C:\Users\twbda\OneDrive\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.csproj.AssemblyReference.cache
+C:\Users\twbda\OneDrive\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.FRMCalculator.resources
+C:\Users\twbda\OneDrive\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.Properties.Resources.resources
+C:\Users\twbda\OneDrive\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.csproj.GenerateResource.cache
+C:\Users\twbda\OneDrive\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\twbda\OneDrive\IV_Calculator\IV_Calculator\bin\Debug\IV_Calculator.exe.config
+C:\Users\twbda\OneDrive\IV_Calculator\IV_Calculator\bin\Debug\IV_Calculator.exe
+C:\Users\twbda\OneDrive\IV_Calculator\IV_Calculator\bin\Debug\IV_Calculator.pdb
+C:\Users\twbda\OneDrive\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.exe
+C:\Users\twbda\OneDrive\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.pdb
+C:\Users\twbda\OneDrive\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.History.resources
+C:\Users\twbda\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\bin\Debug\IV_Calculator.exe.config
+C:\Users\twbda\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\bin\Debug\IV_Calculator.exe
+C:\Users\twbda\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\bin\Debug\IV_Calculator.pdb
+C:\Users\twbda\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.csproj.AssemblyReference.cache
+C:\Users\twbda\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.History.resources
+C:\Users\twbda\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.Properties.Resources.resources
+C:\Users\twbda\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.csproj.GenerateResource.cache
+C:\Users\twbda\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\twbda\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.exe
+C:\Users\twbda\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.pdb
+C:\Users\twbdavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\bin\Debug\IV_Calculator.exe.config
+C:\Users\twbdavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\bin\Debug\IV_Calculator.exe
+C:\Users\twbdavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\bin\Debug\IV_Calculator.pdb
+C:\Users\twbdavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.csproj.AssemblyReference.cache
+C:\Users\twbdavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.exe.config
+C:\Users\twbdavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.FRMCalculator.resources
+C:\Users\twbdavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.History.resources
+C:\Users\twbdavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.Properties.Resources.resources
+C:\Users\twbdavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.csproj.GenerateResource.cache
+C:\Users\twbdavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\twbdavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.exe
+C:\Users\twbdavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.pdb
+C:\Users\ThomasDavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\bin\Debug\IV_Calculator.exe.config
+C:\Users\ThomasDavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\bin\Debug\IV_Calculator.exe
+C:\Users\ThomasDavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\bin\Debug\IV_Calculator.pdb
+C:\Users\ThomasDavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.csproj.AssemblyReference.cache
+C:\Users\ThomasDavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.FRMCalculator.resources
+C:\Users\ThomasDavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.History.resources
+C:\Users\ThomasDavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.Properties.Resources.resources
+C:\Users\ThomasDavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.csproj.GenerateResource.cache
+C:\Users\ThomasDavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\ThomasDavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.exe
+C:\Users\ThomasDavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.pdb
+C:\Users\twbda\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\bin\Debug\PokemonDB.mdf
+C:\Users\twbda\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\bin\Debug\PokemonDB_log.ldf
+C:\Users\twbdavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\bin\Debug\PokemonDB.mdf
+C:\Users\twbdavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\bin\Debug\PokemonDB_log.ldf
+C:\Users\ThomasDavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\bin\Debug\PokemonDB.mdf
+C:\Users\ThomasDavis\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\bin\Debug\PokemonDB_log.ldf
+C:\Users\twbda\OneDrive - Texas A&M University\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.FRMCalculator.resources
+C:\Users\twbda\OneDrive\Desktop\TAMU One Drive\IV_Calculator\IV_Calculator\bin\Debug\PokemonDB.mdf
+C:\Users\twbda\OneDrive\Desktop\TAMU One Drive\IV_Calculator\IV_Calculator\bin\Debug\PokemonDB_log.ldf
+C:\Users\twbda\OneDrive\Desktop\TAMU One Drive\IV_Calculator\IV_Calculator\bin\Debug\IV_Calculator.exe.config
+C:\Users\twbda\OneDrive\Desktop\TAMU One Drive\IV_Calculator\IV_Calculator\bin\Debug\IV_Calculator.exe
+C:\Users\twbda\OneDrive\Desktop\TAMU One Drive\IV_Calculator\IV_Calculator\bin\Debug\IV_Calculator.pdb
+C:\Users\twbda\OneDrive\Desktop\TAMU One Drive\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.csproj.AssemblyReference.cache
+C:\Users\twbda\OneDrive\Desktop\TAMU One Drive\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.FRMCalculator.resources
+C:\Users\twbda\OneDrive\Desktop\TAMU One Drive\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.History.resources
+C:\Users\twbda\OneDrive\Desktop\TAMU One Drive\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.Properties.Resources.resources
+C:\Users\twbda\OneDrive\Desktop\TAMU One Drive\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.csproj.GenerateResource.cache
+C:\Users\twbda\OneDrive\Desktop\TAMU One Drive\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\twbda\OneDrive\Desktop\TAMU One Drive\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.exe
+C:\Users\twbda\OneDrive\Desktop\TAMU One Drive\IV_Calculator\IV_Calculator\obj\Debug\IV_Calculator.pdb

@@ -1,0 +1,131 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\twbdavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E821BD42-C52D-4146-B09E-90C31FA8A463}|IV_Calculator\\IV_Calculator.csproj|c:\\users\\twbdavis\\onedrive - texas a\u0026m university\\iv_calculator\\iv_calculator\\databaseintializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E821BD42-C52D-4146-B09E-90C31FA8A463}|IV_Calculator\\IV_Calculator.csproj|solutionrelative:iv_calculator\\databaseintializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E821BD42-C52D-4146-B09E-90C31FA8A463}|IV_Calculator\\IV_Calculator.csproj|C:\\Users\\twbdavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\iv_calculator\\frmcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E821BD42-C52D-4146-B09E-90C31FA8A463}|IV_Calculator\\IV_Calculator.csproj|solutionrelative:iv_calculator\\frmcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E821BD42-C52D-4146-B09E-90C31FA8A463}|IV_Calculator\\IV_Calculator.csproj|C:\\Users\\twbdavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\iv_calculator\\frmcalculator.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E821BD42-C52D-4146-B09E-90C31FA8A463}|IV_Calculator\\IV_Calculator.csproj|solutionrelative:iv_calculator\\frmcalculator.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E821BD42-C52D-4146-B09E-90C31FA8A463}|IV_Calculator\\IV_Calculator.csproj|C:\\Users\\twbdavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\iv_calculator\\frmcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E821BD42-C52D-4146-B09E-90C31FA8A463}|IV_Calculator\\IV_Calculator.csproj|solutionrelative:iv_calculator\\frmcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E821BD42-C52D-4146-B09E-90C31FA8A463}|IV_Calculator\\IV_Calculator.csproj|C:\\Users\\twbdavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\iv_calculator\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E821BD42-C52D-4146-B09E-90C31FA8A463}|IV_Calculator\\IV_Calculator.csproj|solutionrelative:iv_calculator\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E821BD42-C52D-4146-B09E-90C31FA8A463}|IV_Calculator\\IV_Calculator.csproj|C:\\Users\\twbdavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\iv_calculator\\frmhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E821BD42-C52D-4146-B09E-90C31FA8A463}|IV_Calculator\\IV_Calculator.csproj|solutionrelative:iv_calculator\\frmhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E821BD42-C52D-4146-B09E-90C31FA8A463}|IV_Calculator\\IV_Calculator.csproj|C:\\Users\\twbdavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\iv_calculator\\loadexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E821BD42-C52D-4146-B09E-90C31FA8A463}|IV_Calculator\\IV_Calculator.csproj|solutionrelative:iv_calculator\\loadexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseIntializer.cs",
+              "DocumentMoniker": "C:\\Users\\twbdavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\IV_Calculator\\DatabaseIntializer.cs",
+              "RelativeDocumentMoniker": "IV_Calculator\\DatabaseIntializer.cs",
+              "ToolTip": "C:\\Users\\twbdavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\IV_Calculator\\DatabaseIntializer.cs",
+              "RelativeToolTip": "IV_Calculator\\DatabaseIntializer.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAiwF0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T17:44:11.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FRMHistory.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\twbdavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\IV_Calculator\\FRMHistory.cs",
+              "RelativeDocumentMoniker": "IV_Calculator\\FRMHistory.cs",
+              "ToolTip": "C:\\Users\\ThomasDavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\IV_Calculator\\FRMHistory.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\ThomasDavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\IV_Calculator\\FRMHistory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T18:46:24.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FRMCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\twbdavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\IV_Calculator\\FRMCalculator.cs",
+              "RelativeDocumentMoniker": "IV_Calculator\\FRMCalculator.cs",
+              "ToolTip": "C:\\Users\\twbdavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\IV_Calculator\\FRMCalculator.cs",
+              "RelativeToolTip": "IV_Calculator\\FRMCalculator.cs",
+              "ViewState": "AgIAABQJAAAAAAAAAAAUwC8JAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T18:44:44.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoadExample.cs",
+              "DocumentMoniker": "C:\\Users\\twbdavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\IV_Calculator\\LoadExample.cs",
+              "RelativeDocumentMoniker": "IV_Calculator\\LoadExample.cs",
+              "ToolTip": "C:\\Users\\twbdavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\IV_Calculator\\LoadExample.cs",
+              "RelativeToolTip": "IV_Calculator\\LoadExample.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T00:00:19.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FRMCalculator.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\twbdavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\IV_Calculator\\FRMCalculator.cs",
+              "RelativeDocumentMoniker": "IV_Calculator\\FRMCalculator.cs",
+              "ToolTip": "C:\\Users\\ThomasDavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\IV_Calculator\\FRMCalculator.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\ThomasDavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\IV_Calculator\\FRMCalculator.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T18:44:42.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Validator.cs",
+              "DocumentMoniker": "C:\\Users\\twbdavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\IV_Calculator\\Validator.cs",
+              "RelativeDocumentMoniker": "IV_Calculator\\Validator.cs",
+              "ToolTip": "C:\\Users\\twbdavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\IV_Calculator\\Validator.cs",
+              "RelativeToolTip": "IV_Calculator\\Validator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T21:55:18.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FRMCalculator.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\twbdavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\IV_Calculator\\FRMCalculator.Designer.cs",
+              "RelativeDocumentMoniker": "IV_Calculator\\FRMCalculator.Designer.cs",
+              "ToolTip": "C:\\Users\\twbdavis\\OneDrive - Texas A\u0026M University\\IV_Calculator\\IV_Calculator\\FRMCalculator.Designer.cs",
+              "RelativeToolTip": "IV_Calculator\\FRMCalculator.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T00:17:18.505Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

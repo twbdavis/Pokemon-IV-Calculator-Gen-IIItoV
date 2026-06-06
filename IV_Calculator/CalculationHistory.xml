@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CalculationHistory>
+    <Entry>
+        <Pokemon>Rayquaza</Pokemon>
+        <Level>48</Level>
+        <Nature>Jolly</Nature>
+        <HPIVResult>28-29</HPIVResult>
+        <AttackIVResult>30-31</AttackIVResult>
+        <DefenseIVResult>27-28</DefenseIVResult>
+        <SpAttackIVResult>23-27</SpAttackIVResult>
+        <SpDefenseIVResult>25-26</SpDefenseIVResult>
+        <SpeedIVResult>18-19</SpeedIVResult>
+        <HiddenPowerType>Bug / Dark
+Dragon / Electric
+Fighting / Fire
+Flying / Ghost
+Grass / Ground
+Ice / Poison
+Psychic / Rock</HiddenPowerType>
+        <CalculationTime>2026-02-14T22:25:28.3752004-06:00</CalculationTime>
+        <StatHP>172</StatHP>
+        <StatAttack>187</StatAttack>
+        <StatDefense>104</StatDefense>
+        <StatSpAttack>144</StatSpAttack>
+        <StatSpDefense>110</StatSpDefense>
+        <StatSpeed>148</StatSpeed>
+        <EVHP>0</EVHP>
+        <EVAttack>200</EVAttack>
+        <EVDefense>0</EVDefense>
+        <EVSpAttack>0</EVSpAttack>
+        <EVSpDefense>56</EVSpDefense>
+        <EVSpeed>252</EVSpeed>
+        <Entry>
+            <Pokemon>Heatran</Pokemon>
+            <Level>88</Level>
+            <Nature>Quiet</Nature>
+            <HPIVResult>17</HPIVResult>
+            <AttackIVResult>17</AttackIVResult>
+            <DefenseIVResult>6</DefenseIVResult>
+            <SpAttackIVResult>2-3</SpAttackIVResult>
+            <SpDefenseIVResult>29</SpDefenseIVResult>
+            <SpeedIVResult>24</SpeedIVResult>
+            <HiddenPowerType>Fire / Psychic</HiddenPowerType>
+            <CalculationTime>2026-02-14T22:26:00.1593086-06:00</CalculationTime>
+            <StatHP>273</StatHP>
+            <StatAttack>186</StatAttack>
+            <StatDefense>205</StatDefense>
+            <StatSpAttack>262</StatSpAttack>
+            <StatSpDefense>218</StatSpDefense>
+            <StatSpeed>156</StatSpeed>
+            <EVHP>3</EVHP>
+            <EVAttack>38</EVAttack>
+            <EVDefense>43</EVDefense>
+            <EVSpAttack>19</EVSpAttack>
+            <EVSpDefense>10</EVSpDefense>
+            <EVSpeed>61</EVSpeed>
+            <Entry>
+                <Pokemon>Bulbasaur</Pokemon>
+                <Level>5</Level>
+                <Nature>Modest</Nature>
+                <HPIVResult>10-29</HPIVResult>
+                <AttackIVResult>0-1</AttackIVResult>
+                <DefenseIVResult>22-31</DefenseIVResult>
+                <SpAttackIVResult>10-29</SpAttackIVResult>
+                <SpDefenseIVResult>10-29</SpDefenseIVResult>
+                <SpeedIVResult>10-29</SpeedIVResult>
+                <HiddenPowerType>Bug / Dark
+Dragon / Electric
+Fighting / Fire
+Flying / Ghost
+Grass / Ground
+Ice / Poison
+Psychic / Rock</HiddenPowerType>
+                <CalculationTime>2026-02-14T22:26:01.7785806-06:00</CalculationTime>
+                <StatHP>20</StatHP>
+                <StatAttack>8</StatAttack>
+                <StatDefense>11</StatDefense>
+                <StatSpAttack>13</StatSpAttack>
+                <StatSpDefense>12</StatSpDefense>
+                <StatSpeed>10</StatSpeed>
+                <EVHP>0</EVHP>
+                <EVAttack>0</EVAttack>
+                <EVDefense>0</EVDefense>
+                <EVSpAttack>0</EVSpAttack>
+                <EVSpDefense>0</EVSpDefense>
+                <EVSpeed>0</EVSpeed>
+                <Entry>
+                    <Pokemon>Dragonite</Pokemon>
+                    <Level>71</Level>
+                    <Nature>Naive</Nature>
+                    <HPIVResult>21-22</HPIVResult>
+                    <AttackIVResult>28-29</AttackIVResult>
+                    <DefenseIVResult>13-14</DefenseIVResult>
+                    <SpAttackIVResult>8</SpAttackIVResult>
+                    <SpDefenseIVResult>19-21</SpDefenseIVResult>
+                    <SpeedIVResult>22-23</SpeedIVResult>
+                    <HiddenPowerType>Electric / Fighting
+Fire / Flying
+Grass / Ground
+Poison / Steel
+Water</HiddenPowerType>
+                    <CalculationTime>2026-02-14T22:26:04.9293599-06:00</CalculationTime>
+                    <StatHP>225</StatHP>
+                    <StatAttack>215</StatAttack>
+                    <StatDefense>149</StatDefense>
+                    <StatSpAttack>152</StatSpAttack>
+                    <StatSpDefense>144</StatSpDefense>
+                    <StatSpeed>147</StatSpeed>
+                    <EVHP>0</EVHP>
+                    <EVAttack>0</EVAttack>
+                    <EVDefense>0</EVDefense>
+                    <EVSpAttack>0</EVSpAttack>
+                    <EVSpDefense>0</EVSpDefense>
+                    <EVSpeed>0</EVSpeed>
+                    <Entry>
+                        <Pokemon>Starmie</Pokemon>
+                        <Level>76</Level>
+                        <Nature>Modest</Nature>
+                        <HPIVResult>31</HPIVResult>
+                        <AttackIVResult>31</AttackIVResult>
+                        <DefenseIVResult>30-31</DefenseIVResult>
+                        <SpAttackIVResult>31</SpAttackIVResult>
+                        <SpDefenseIVResult>30-31</SpDefenseIVResult>
+                        <SpeedIVResult>31</SpeedIVResult>
+                        <HiddenPowerType>Dark / Dragon
+Ghost / Steel</HiddenPowerType>
+                        <CalculationTime>2026-02-14T22:26:09.4662260-06:00</CalculationTime>
+                        <StatHP>201</StatHP>
+                        <StatAttack>127</StatAttack>
+                        <StatDefense>157</StatDefense>
+                        <StatSpAttack>250</StatSpAttack>
+                        <StatSpDefense>157</StatSpDefense>
+                        <StatSpeed>251</StatSpeed>
+                        <EVHP>6</EVHP>
+                        <EVAttack>0</EVAttack>
+                        <EVDefense>0</EVDefense>
+                        <EVSpAttack>252</EVSpAttack>
+                        <EVSpDefense>0</EVSpDefense>
+                        <EVSpeed>252</EVSpeed>
+                        <Entry>
+                            <Pokemon>Ho-Oh</Pokemon>
+                            <Level>70</Level>
+                            <Nature>Adamant</Nature>
+                            <HPIVResult>20</HPIVResult>
+                            <AttackIVResult>20-21</AttackIVResult>
+                            <DefenseIVResult>3-4</DefenseIVResult>
+                            <SpAttackIVResult>29</SpAttackIVResult>
+                            <SpDefenseIVResult>28-29</SpDefenseIVResult>
+                            <SpeedIVResult>16-17</SpeedIVResult>
+                            <HiddenPowerType>Bug / Dragon
+Electric / Ghost
+Ground / Ice
+Psychic / Rock
+Steel</HiddenPowerType>
+                            <CalculationTime>2026-02-14T22:27:56.3293679-06:00</CalculationTime>
+                            <StatHP>242</StatHP>
+                            <StatAttack>221</StatAttack>
+                            <StatDefense>133</StatDefense>
+                            <StatSpAttack>161</StatSpAttack>
+                            <StatSpDefense>240</StatSpDefense>
+                            <StatSpeed>142</StatSpeed>
+                            <EVHP>0</EVHP>
+                            <EVAttack>3</EVAttack>
+                            <EVDefense>1</EVDefense>
+                            <EVSpAttack>3</EVSpAttack>
+                            <EVSpDefense>1</EVSpDefense>
+                            <EVSpeed>0</EVSpeed>
+                            <Entry>
+                                <Pokemon>Garchomp</Pokemon>
+                                <Level>48</Level>
+                                <Nature>Jolly</Nature>
+                                <HPIVResult>7-8</HPIVResult>
+                                <AttackIVResult>22-23</AttackIVResult>
+                                <DefenseIVResult>17-18</DefenseIVResult>
+                                <SpAttackIVResult>22-23</SpAttackIVResult>
+                                <SpDefenseIVResult>0-1</SpDefenseIVResult>
+                                <SpeedIVResult>4-5</SpeedIVResult>
+                                <HiddenPowerType>Bug / Dark
+Dragon / Electric
+Fighting / Fire
+Flying / Ghost
+Grass / Ground
+Ice / Poison
+Psychic / Rock</HiddenPowerType>
+                                <CalculationTime>2026-02-25T14:46:55.5950267-06:00</CalculationTime>
+                                <StatHP>165</StatHP>
+                                <StatAttack>164</StatAttack>
+                                <StatDefense>104</StatDefense>
+                                <StatSpAttack>82</StatSpAttack>
+                                <StatSpDefense>93</StatSpDefense>
+                                <StatSpeed>148</StatSpeed>
+                                <EVHP>0</EVHP>
+                                <EVAttack>200</EVAttack>
+                                <EVDefense>0</EVDefense>
+                                <EVSpAttack>0</EVSpAttack>
+                                <EVSpDefense>56</EVSpDefense>
+                                <EVSpeed>252</EVSpeed>
+                                <Entry>
+                                    <Pokemon>Krookodile</Pokemon>
+                                    <Level>97</Level>
+                                    <Nature>Adamant</Nature>
+                                    <HPIVResult>23</HPIVResult>
+                                    <AttackIVResult>23</AttackIVResult>
+                                    <DefenseIVResult>31</DefenseIVResult>
+                                    <SpAttackIVResult>11</SpAttackIVResult>
+                                    <SpDefenseIVResult>12</SpDefenseIVResult>
+                                    <SpeedIVResult>4</SpeedIVResult>
+                                    <HiddenPowerType>Bug</HiddenPowerType>
+                                    <CalculationTime>2026-02-27T02:20:16.2334912-06:00</CalculationTime>
+                                    <StatHP>325</StatHP>
+                                    <StatAttack>337</StatAttack>
+                                    <StatDefense>185</StatDefense>
+                                    <StatSpAttack>139</StatSpAttack>
+                                    <StatSpDefense>159</StatSpDefense>
+                                    <StatSpeed>208</StatSpeed>
+                                    <EVHP>50</EVHP>
+                                    <EVAttack>221</EVAttack>
+                                    <EVDefense>62</EVDefense>
+                                    <EVSpAttack>58</EVSpAttack>
+                                    <EVSpDefense>29</EVSpDefense>
+                                    <EVSpeed>90</EVSpeed>
+                                </Entry>
+                            </Entry>
+                        </Entry>
+                    </Entry>
+                </Entry>
+            </Entry>
+        </Entry>
+    </Entry>
+</CalculationHistory>
