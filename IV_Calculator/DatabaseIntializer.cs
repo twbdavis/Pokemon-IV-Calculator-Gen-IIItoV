@@ -65,6 +65,8 @@ namespace IV_Calculator
         }
         public static void SeedDatabase()
         {
+            PokemonDB.EnsureDatabaseFileExists();
+
             SqlConnection connection = PokemonDB.GetConnection();
 
             try
