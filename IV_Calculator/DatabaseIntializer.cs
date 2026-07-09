@@ -90,7 +90,7 @@ namespace IV_Calculator
                     
                 }
 
-                SeedExamplePokemon(connection);
+                //SeedExamplePokemon(connection);
             }
             catch (SqlException)
             {
