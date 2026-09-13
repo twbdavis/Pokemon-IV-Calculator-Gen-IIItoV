@@ -1,83 +1,57 @@
-﻿using System;
-using System.Collections.Generic;
+using System;
 using System.Data.SqlClient;
 using System.IO;
-using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace IV_Calculator
 {
     public static class PokemonDB
     {
+        private static string MdfPath => Path.Combine(AppDataPaths.DirectoryPath, "PokemonDB.mdf");
+        public static string DatabaseName
+        {
+            get
+            {
+                using (var hash = SHA256.Create())
+                {
+                    var digest = hash.ComputeHash(Encoding.UTF8.GetBytes(MdfPath.ToUpperInvariant()));
+                    return "PokemonIVCalculator_" + BitConverter.ToString(digest, 0, 12).Replace("-", "");
+                }
+            }
+        }
         public static SqlConnection GetConnection()
         {
-            string connectionString =
-                "Data Source=(LocalDB)\\MSSQLLocalDB;" +
-                "AttachDbFilename=|DataDirectory|\\PokemonDB.mdf;" +
-                "Integrated Security=True";
-            SqlConnection connection = new SqlConnection(connectionString);
-            return connection;
-        }
-
-        private static string GetMdfPath()
-        {
-            string dataDirectory = AppDomain.CurrentDomain.GetData("DataDirectory") as string;
-            if (string.IsNullOrEmpty(dataDirectory))
+            return new SqlConnection(new SqlConnectionStringBuilder
             {
-                dataDirectory = AppDomain.CurrentDomain.BaseDirectory;
-            }
-            return Path.Combine(dataDirectory, "PokemonDB.mdf");
+                DataSource = @"(LocalDB)\MSSQLLocalDB",
+                AttachDBFilename = MdfPath,
+                InitialCatalog = DatabaseName,
+                IntegratedSecurity = true
+            }.ConnectionString);
         }
-
         public static void EnsureDatabaseFileExists()
         {
-            string mdfPath = GetMdfPath();
-            if (File.Exists(mdfPath))
-            {
-                return;
-            }
-
-            string ldfPath = Path.Combine(Path.GetDirectoryName(mdfPath), "PokemonDB_log.ldf");
-
-            string masterConnectionString =
-                "Data Source=(LocalDB)\\MSSQLLocalDB;" +
-                "Integrated Security=True";
-
-            using (SqlConnection connection = new SqlConnection(masterConnectionString))
+            if (File.Exists(MdfPath)) return;
+            using (var connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True"))
             {
                 connection.Open();
-
-                // Drop any leftover registration from a previous copy of the file,
-                // otherwise CREATE DATABASE fails with a name/file conflict.
-                string dropStatement = @"
-                    DECLARE @staleName sysname;
-                    SELECT TOP 1 @staleName = d.name
-                    FROM sys.databases d
-                    JOIN sys.master_files f ON d.database_id = f.database_id
-                    WHERE f.physical_name = @mdfPath OR d.name = 'PokemonDB';
-                    IF @staleName IS NOT NULL
-                    BEGIN
-                        DECLARE @dropSql nvarchar(max) = N'DROP DATABASE ' + QUOTENAME(@staleName) + N';';
-                        EXEC(@dropSql);
-                    END;";
-                using (SqlCommand dropCommand = new SqlCommand(dropStatement, connection))
+                using (var check = new SqlCommand("SELECT COUNT(*) FROM sys.databases d JOIN sys.master_files f ON d.database_id = f.database_id WHERE d.name = @name OR f.physical_name = @path", connection))
                 {
-                    dropCommand.Parameters.AddWithValue("@mdfPath", mdfPath);
-                    dropCommand.ExecuteNonQuery();
+                    check.Parameters.AddWithValue("@name", DatabaseName);
+                    check.Parameters.AddWithValue("@path", MdfPath);
+                    if ((int)check.ExecuteScalar() != 0)
+                        throw new InvalidOperationException("The calculator database is registered but its data file is missing. Restore your backup or choose a new IV_CALCULATOR_DATA_DIR. No existing database has been changed.");
                 }
-
-                // Create a fresh database at the expected location, then detach it so
-                // the AttachDbFilename connection string can attach it normally.
-                string createStatement =
-                    "CREATE DATABASE [PokemonDB] " +
-                    "ON PRIMARY (NAME = 'PokemonDB', FILENAME = '" + mdfPath.Replace("'", "''") + "') " +
-                    "LOG ON (NAME = 'PokemonDB_log', FILENAME = '" + ldfPath.Replace("'", "''") + "'); " +
-                    "EXEC sp_detach_db 'PokemonDB';";
-                using (SqlCommand createCommand = new SqlCommand(createStatement, connection))
-                {
-                    createCommand.ExecuteNonQuery();
-                }
+                var logPath = Path.Combine(AppDataPaths.DirectoryPath, "PokemonDB_log.ldf");
+                if (File.Exists(logPath))
+                    throw new InvalidOperationException("A database log exists without its data file. Restore your backup or choose a new IV_CALCULATOR_DATA_DIR. The existing log has been preserved.");
+                // The catalog is unique to this application's data directory.
+                // Never drop another database to resolve a name or file collision.
+                var sql = "CREATE DATABASE [" + DatabaseName + "] ON PRIMARY (NAME = 'PokemonData', FILENAME = '"
+                    + MdfPath.Replace("'", "''") + "') LOG ON (NAME = 'PokemonLog', FILENAME = '"
+                    + logPath.Replace("'", "''") + "')";
+                using (var create = new SqlCommand(sql, connection)) create.ExecuteNonQuery();
             }
         }
     }

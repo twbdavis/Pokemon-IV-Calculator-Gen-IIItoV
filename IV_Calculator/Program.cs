@@ -14,14 +14,21 @@ namespace IV_Calculator
         [STAThread]
         static void Main()
         {
-            // 🔧 FIX: Set DataDirectory so LocalDB can find the MDF
-            string dataDir = AppDomain.CurrentDomain.BaseDirectory;
+            string dataDir = AppDataPaths.DirectoryPath;
             AppDomain.CurrentDomain.SetData("DataDirectory", dataDir);
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            DatabaseInitializer.SeedDatabase();
-            Application.Run(new FRMCalculator());
+            try
+            {
+                DatabaseInitializer.SeedDatabase();
+                Application.Run(new FRMCalculator());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("The calculator could not start. Verify that SQL Server Express LocalDB is installed and that your data folder is writable.\n\n" + ex.Message,
+                    "Unable to start IV Calculator", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

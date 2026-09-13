@@ -61,6 +61,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppDataPaths.cs" />
     <Compile Include="CalculationHistory.cs" />
     <Compile Include="CalculationHistoryDB.cs" />
     <Compile Include="DatabaseIntializer.cs" />
@@ -113,9 +114,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="CalculationHistory.xml" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8">

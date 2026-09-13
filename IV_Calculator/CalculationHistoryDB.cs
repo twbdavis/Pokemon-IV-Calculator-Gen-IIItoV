@@ -10,8 +10,7 @@ namespace IV_Calculator
 {
     public static class CalculationHistoryDB
     {
-        // Path to the XML file (stored in project directory)
-        private const string Path = @"..\..\CalculationHistory.xml";
+        private static string Path => AppDataPaths.HistoryPath;
 
         /// <summary>
         /// Loads all calculation history entries from the XML file
@@ -123,6 +122,7 @@ namespace IV_Calculator
                 xmlOut.WriteElementString("EVSpAttack", entry.EVSpAttack.ToString());
                 xmlOut.WriteElementString("EVSpDefense", entry.EVSpDefense.ToString());
                 xmlOut.WriteElementString("EVSpeed", entry.EVSpeed.ToString());
+                xmlOut.WriteEndElement();
 
 
 

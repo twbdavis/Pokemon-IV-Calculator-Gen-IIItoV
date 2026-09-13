@@ -85,12 +85,12 @@ namespace IV_Calculator
 
                 if (count == 0)
                 {
-                    SeedNatures(connection);
                     SeedPokemon(connection);
                     
                 }
 
-                //SeedExamplePokemon(connection);
+                SeedNatures(connection);
+                SeedExamplePokemon(connection);
             }
             catch (SqlException)
             {
